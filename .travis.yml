@@ -1,5 +1,14 @@
 dist: xenial
-if: branch = master
+# blocklist
+branches:
+  except:
+  - develop
+
+# safelist
+branches:
+  only:
+  - master
+
 services:
   - postgresql
 addons:
