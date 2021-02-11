@@ -154,7 +154,7 @@ STATIC_URL = '/static/'
 KEYBITS = 256
 
 BASEURL= "https://egc-app-decide-ferangmor-test.herokuapp.com"
-
+APIS = {}
 try:
     from local_settings import *
 except ImportError:
